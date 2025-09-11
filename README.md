@@ -46,7 +46,7 @@ Make sure you have the following installed:
     ```
 3.  Create a `.env` file in the `backend` folder and add your MongoDB connection string.
     ```
-    PORT=5000
+    PORT=4000
     MONGO_URI=your_mongodb_connection_string
     ```
     (Remember to replace `your_mongodb_connection_string` with your actual MongoDB URI).
