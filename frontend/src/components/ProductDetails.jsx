@@ -41,7 +41,7 @@ const ProductDetails = ({ product, onClose }) => {
             Weight:
           </Typography>
           <Typography variant="body1" component="span" sx={{ ml: 1 }}>
-            {product.weight}
+            {product.weight}g
           </Typography>
         </Box>
         <Box sx={{ mb: 2 }}>
@@ -49,7 +49,7 @@ const ProductDetails = ({ product, onClose }) => {
             Price:
           </Typography>
           <Typography variant="body1" component="span" sx={{ ml: 1 }}>
-            ${product.price}
+            Rs.{product.price}
           </Typography>
         </Box>
         <Box>

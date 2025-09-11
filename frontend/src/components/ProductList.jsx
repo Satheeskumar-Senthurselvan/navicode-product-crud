@@ -54,8 +54,8 @@ const ProductList = ({
                 <TableRow key={product._id}>
                   <TableCell>{formatDate(product.createdAt)}</TableCell>
                   <TableCell>{product.name}</TableCell>
-                  <TableCell align="right">{product.weight}</TableCell>
-                  <TableCell align="right">${product.price}</TableCell>
+                  <TableCell align="right">{product.weight}g</TableCell>
+                  <TableCell align="right">Rs.{product.price}</TableCell>
                   <TableCell align="center">
                     <Button
                       variant="contained"

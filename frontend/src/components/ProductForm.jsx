@@ -31,6 +31,14 @@ const ProductForm = ({ onSubmit, editingProduct, onCancel }) => {
       alert('Please fill in all fields.');
       return;
     }
+    if (weight < 0) {
+      alert('Product weight cannot be negative.');
+      return;
+    }
+    if (price < 0) {
+      alert('Product price cannot be negative.');
+      return;
+    }
     onSubmit({ name, weight, price });
   };
 
@@ -49,7 +57,7 @@ const ProductForm = ({ onSubmit, editingProduct, onCancel }) => {
             required
           />
           <TextField
-            label="Weight"
+            label="Weight in grams"
             variant="outlined"
             fullWidth
             margin="normal"
@@ -57,9 +65,10 @@ const ProductForm = ({ onSubmit, editingProduct, onCancel }) => {
             value={weight}
             onChange={(e) => setWeight(Number(e.target.value))}
             required
+            inputProps={{ min: "0" }}
           />
           <TextField
-            label="Price"
+            label="Price in Rs."
             variant="outlined"
             fullWidth
             margin="normal"
@@ -67,6 +76,7 @@ const ProductForm = ({ onSubmit, editingProduct, onCancel }) => {
             value={price}
             onChange={(e) => setPrice(Number(e.target.value))}
             required
+            inputProps={{ min: "0" }}
           />
         </DialogContent>
         <DialogActions>
