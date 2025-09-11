@@ -31,7 +31,7 @@ To get the application up and running on your local machine, follow these steps.
 
 #### Prerequisites
 Make sure you have the following installed:
-* [Node.js](https://nodejs.org/en/) (comes with npm)
+* [Node.js](https://nodejs.org/en/)
 * A running instance of [MongoDB](https://www.mongodb.com/) (either a local installation or a cloud service like MongoDB Atlas).
 
 #### 1. Backend Setup
