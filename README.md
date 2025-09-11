@@ -49,13 +49,12 @@ Make sure you have the following installed:
     PORT=5000
     MONGO_URI=your_mongodb_connection_string
     ```
-    (Remember to replace `your_mongodb_connection_string` with your actual MongoDB URI, for example, `mongodb://localhost:27017/productsdb`).
+    (Remember to replace `your_mongodb_connection_string` with your actual MongoDB URI).
 
 4.  Start the backend server:
     ```bash
     npm start
     ```
-    The server should now be running on `http://localhost:5000`.
 
 #### 2. Frontend Setup
 
@@ -71,7 +70,6 @@ Make sure you have the following installed:
     ```bash
     npm start
     ```
-    The application will automatically open in your default browser at `http://localhost:3000`.
 
 Now you're all set! Both the frontend and backend should be connected, and you can start managing products.
 
