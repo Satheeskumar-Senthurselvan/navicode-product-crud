@@ -68,7 +68,7 @@ Make sure you have the following installed:
     ```
 3.  Start the frontend development server:
     ```bash
-    npm start
+    npm run dev
     ```
 
 Now you're all set! Both the frontend and backend should be connected, and you can start managing products.
