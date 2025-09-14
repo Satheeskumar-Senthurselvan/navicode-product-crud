@@ -53,7 +53,7 @@ Make sure you have the following installed:
     npm install
     ```
 3.  Create a `.env` file in the `backend` folder and add your MongoDB connection string.
-    ```
+    ```bash
     PORT=4000
     MONGO_URI=your_mongodb_connection_string
     ```
