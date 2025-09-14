@@ -60,9 +60,10 @@ Make sure you have the following installed:
     (Remember to replace `your_mongodb_connection_string` with your actual MongoDB URI).
     
 4.  Change the CORS origin to allow requests from your local frontend. Open server.js and update the cors middleware:
-    `origin: 'http://localhost:5173'`
-
-5.  Start the backend server:
+    ```bash
+    origin: 'http://localhost:5173'
+    ```
+6.  Start the backend server:
     ```bash
     npm start
     ```
@@ -74,7 +75,9 @@ Make sure you have the following installed:
     cd frontend
     ```
 2.  Change the API URL to point to your local backend. Open src/App.jsx and update the API_URL constant:
-    `const API_URL = '/api/products'`
+   ```bash 
+    `const API_URL = '/api/products'
+    ```
     
 2.  Install the project's frontend dependencies:
     ```bash
