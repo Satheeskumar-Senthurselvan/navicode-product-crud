@@ -5,8 +5,8 @@ This is a full-stack web application for managing a list of products. The system
 ### Live Demo 🚀
 
 The application is deployed and available at the following links:
-* **Frontend:** `https://navicode-product-crud-dz43.vercel.app/`
-* **Backend:** `https://navicode-product-crud.vercel.app`
+* **Frontend:** [https://navicode-product-crud-dz43.vercel.app/](https://navicode-product-crud-dz43.vercel.app/)
+* **Backend:** [https://navicode-product-crud.vercel.app] (https://navicode-product-crud.vercel.app)
 
 ***
 
