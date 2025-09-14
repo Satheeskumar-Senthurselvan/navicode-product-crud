@@ -67,7 +67,7 @@ Make sure you have the following installed:
     npm start
     ```
 
-#### 2. Frontend Setup to Run Locally
+#### 2. Frontend Setup
 
 1.  Open a **new** terminal window and navigate to the `frontend` folder:
     ```bash
