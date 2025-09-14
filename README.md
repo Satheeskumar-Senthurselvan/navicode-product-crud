@@ -75,8 +75,8 @@ Make sure you have the following installed:
     cd frontend
     ```
 2.  Change the API URL to point to your local backend. Open src/App.jsx and update the API_URL constant:
-   ```bash 
-    `const API_URL = '/api/products'
+   ```bash
+    const API_URL = '/api/products'
     ```
     
 2.  Install the project's frontend dependencies:
