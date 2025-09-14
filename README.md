@@ -2,6 +2,14 @@
 
 This is a full-stack web application for managing a list of products. The system is built with a clean, simple user interface that communicates with a robust backend API to handle all product data. You can perform standard CRUD (Create, Read, Update, Delete) operations and navigate through product listings with efficient pagination.
 
+### Live Demo 🚀
+
+The application is deployed and available at the following links:
+* **Frontend:** `https://navicode-product-crud-dz43.vercel.app/`
+* **Backend:** `https://navicode-product-crud.vercel.app`
+
+***
+
 ### Key Features
 * **Create:** Easily add new products to your inventory.
 * **Read:** Retrieve all products with paginated results or fetch a single product by its unique ID.
@@ -50,18 +58,24 @@ Make sure you have the following installed:
     MONGO_URI=your_mongodb_connection_string
     ```
     (Remember to replace `your_mongodb_connection_string` with your actual MongoDB URI).
+    
+4.  Change the CORS origin to allow requests from your local frontend. Open server.js and update the cors middleware:
+    `origin: 'http://localhost:5173'`
 
-4.  Start the backend server:
+5.  Start the backend server:
     ```bash
     npm start
     ```
 
-#### 2. Frontend Setup
+#### 2. Frontend Setup to Run Locally
 
 1.  Open a **new** terminal window and navigate to the `frontend` folder:
     ```bash
     cd frontend
     ```
+2.  Change the API URL to point to your local backend. Open src/App.jsx and update the API_URL constant:
+    `const API_URL = '/api/products'`
+    
 2.  Install the project's frontend dependencies:
     ```bash
     npm install
