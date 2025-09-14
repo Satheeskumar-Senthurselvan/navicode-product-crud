@@ -5,7 +5,7 @@ import ProductDetails from './components/ProductDetails';
 import { Container, Typography, Box, Dialog } from '@mui/material';
 import './App.css';
 
-const API_URL = '/api/products';
+const API_URL = 'https://navicode-product-crud.vercel.app/api/products';
 
 function App() {
   const [products, setProducts] = useState([]);
